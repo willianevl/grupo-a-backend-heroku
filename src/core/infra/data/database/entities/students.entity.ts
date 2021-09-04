@@ -17,6 +17,7 @@ export class StudentEntity extends BaseEntity {
 
     constructor(name: string, cpf: string, email: string){
         super();
+        this.ra = ra;
         this.name = name;
         this.cpf = cpf;
         this.email = email;
